@@ -1,0 +1,22 @@
+{
+    "name": "teandr/crawler",
+    "description": "crawler",
+    "authors": [
+        {
+            "name": "Andrey",
+            "email": "teandr@mail.ru"
+        }
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.3",
+        "stil/curl-easy": "^1.2",
+        "voku/simple_html_dom": "^4.7",
+        "voku/portable-utf8": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "teandr\\": "src/"
+        }
+    }
+}
