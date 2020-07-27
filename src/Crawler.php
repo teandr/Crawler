@@ -57,5 +57,5 @@ class Crawler implements CrawlerInterface
         }
     }
 
-    protected function start() {}
+    public function start() {}
 }
