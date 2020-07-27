@@ -1,6 +1,6 @@
 <?php
 
-namespace teandr\crawler;
+namespace teandr\Crawler;
 
 interface CrawlerInterface
 {

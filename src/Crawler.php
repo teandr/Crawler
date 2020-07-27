@@ -1,6 +1,6 @@
 <?php
 
-namespace teandr\crawler;
+namespace teandr\Crawler;
 
 use cURL\Error;
 use cURL\Event;
@@ -57,5 +57,5 @@ class Crawler implements CrawlerInterface
         }
     }
 
-    public function start() {}
+    protected function start() {}
 }
